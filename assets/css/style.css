@@ -1,0 +1,50 @@
+:root {
+  --event-ink: #17212b;
+  --event-blue: #1769aa;
+  --event-mint: #dff5ed;
+  --event-bg: #f4f7f9;
+}
+
+body {
+  background: var(--event-bg);
+  color: var(--event-ink);
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.sidebar {
+  background: #102a43;
+  min-height: 100vh;
+}
+
+.sidebar a {
+  color: #d9e2ec;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  background: #1769aa;
+  color: #fff;
+}
+
+.stat-card {
+  border: 0;
+  border-left: 4px solid var(--event-blue);
+}
+
+.table thead th {
+  white-space: nowrap;
+}
+
+.modal-content {
+  border: 0;
+  border-radius: .5rem;
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    min-height: auto;
+  }
+}

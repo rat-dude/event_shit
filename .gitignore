@@ -1,0 +1,17 @@
+
+# Database credentials
+/config/database.php
+
+# Temporary diagnostic files
+/test-pdo.php
+/connection.php
+
+/config.zip
+
+# Environment secrets
+.env
+.env.*
+
+# Logs
+*.log
+      
